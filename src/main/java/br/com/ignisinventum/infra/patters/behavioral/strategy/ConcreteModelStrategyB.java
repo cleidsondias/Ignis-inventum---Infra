@@ -5,16 +5,19 @@ import br.com.ignisinventum.infra.patters.behavioral.strategy.interfaces.Strateg
 /**
  * The Class ConcreteModelStrategyB.
  */
-public class ConcreteModelStrategyB implements Strategy<InputModelHandle, OutputModelHandle> {
+public class ConcreteModelStrategyB implements Strategy<InputModelHandle, OutputModelHandle, String> {
 
 	/**
-	 * Execute.
+	 * Operation.
 	 *
 	 * @param input the input
 	 * @return the output model handle
 	 */
-	public OutputModelHandle execute(InputModelHandle input) {
-		return null;
+	@Override
+	public OutputModelHandle operation(InputModelHandle input) {
+		OutputModelHandle outputModelHandle = new OutputModelHandle();
+		outputModelHandle.setResult(input.getResult() + ": proccess by ConcreteModelStrategyB");
+		return outputModelHandle;
 	}
 
 }

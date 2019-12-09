@@ -1,4 +1,4 @@
-## Strategy Pattern
+## Singleton Pattern
 
 **Type:** Creational
 

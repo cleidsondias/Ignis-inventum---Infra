@@ -1,5 +1,7 @@
 package br.com.ignisinventum.infra.patters.creational.singleton;
 
+import br.com.ignisinventum.infra.patters.creational.singleton.interfaces.Singleton;
+
 /**
  * The Class ConcreteSingleton.
  */

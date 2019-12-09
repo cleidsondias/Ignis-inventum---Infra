@@ -5,18 +5,18 @@
     project="br.com.ignisinventum.infra" 
     file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/singleton/ConcreteSingleton.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="146" y="189"/>    
+    <position height="-1" width="-1" x="172" y="215"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="2" language="java" name="br.com.ignisinventum.infra.patters.creational.singleton.Singleton" 
+  <interface id="2" language="java" name="br.com.ignisinventum.infra.patters.creational.singleton.interfaces.Singleton" 
     project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/singleton/Singleton.java" 
+    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/singleton/interfaces/Singleton.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="144" y="52"/>    
+    <position height="-1" width="-1" x="172" y="47"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -29,8 +29,12 @@
   </realization>  
   <association id="4">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="5" name="SINGLE_INSTANCE"/>      
-      <multiplicity id="6" minimum="0" maximum="1"/>    
+      <attribute id="5" name="SINGLE_INSTANCE">        
+        <position height="0" width="0" x="26" y="26"/>      
+      </attribute>      
+      <multiplicity id="6" minimum="0" maximum="1">        
+        <position height="0" width="0" x="26" y="26"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

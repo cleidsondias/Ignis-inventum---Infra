@@ -1,4 +1,4 @@
-package br.com.ignisinventum.infra.patters.creational.singleton;
+package br.com.ignisinventum.infra.patters.creational.singleton.interfaces;
 
 import java.io.Serializable;
 

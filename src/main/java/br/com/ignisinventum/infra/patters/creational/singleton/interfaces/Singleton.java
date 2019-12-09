@@ -7,6 +7,6 @@ import java.io.Serializable;
  *
  * @param <I> the generic type
  */
-public interface Singleton<I extends Singleton<?>> extends Cloneable, Serializable {
+public interface Singleton<I extends Singleton<?>> extends Serializable {
 
 }

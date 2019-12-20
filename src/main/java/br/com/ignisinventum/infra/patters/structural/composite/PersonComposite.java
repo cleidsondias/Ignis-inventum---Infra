@@ -18,7 +18,7 @@ public class PersonComposite implements Composite<PersonComposite>, Component {
 	 * Adds the.
 	 *
 	 * @param person the person
-	 * @return 
+	 * @return the person composite
 	 */
 	@Override
 	public PersonComposite add(PersonComposite person) {
@@ -30,6 +30,7 @@ public class PersonComposite implements Composite<PersonComposite>, Component {
 	 * Removes the.
 	 *
 	 * @param person the person
+	 * @return the person composite
 	 */
 	@Override
 	public PersonComposite remove(PersonComposite person) {
@@ -46,12 +47,31 @@ public class PersonComposite implements Composite<PersonComposite>, Component {
 	public List<PersonComposite> getChildren() {
 		return personas;
 	}
-	
+
+	/**
+	 * Size.
+	 *
+	 * @return the integer
+	 */
 	@Override
 	public Integer size() {
 		Integer count = 1;
 		for (PersonComposite person : personas) {
 			count += person.size();
+		}
+		return count;
+	}
+
+	/**
+	 * Degree.
+	 *
+	 * @return the integer
+	 */
+	@Override
+	public Integer degree() {
+		Integer count = 1;
+		if (personas.size() > 0) {
+			count += personas.get(0).degree();
 		}
 		return count;
 	}

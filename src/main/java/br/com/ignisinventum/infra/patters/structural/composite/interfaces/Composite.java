@@ -2,7 +2,6 @@ package br.com.ignisinventum.infra.patters.structural.composite.interfaces;
 
 import java.util.List;
 
-
 /**
  * The Interface Composite.
  *
@@ -39,6 +38,13 @@ public interface Composite<T extends Component> {
 	 * @return the integer
 	 */
 	Integer size();
+
+	/**
+	 * Degree.
+	 *
+	 * @return the integer
+	 */
+	Integer degree();
 
 }
  

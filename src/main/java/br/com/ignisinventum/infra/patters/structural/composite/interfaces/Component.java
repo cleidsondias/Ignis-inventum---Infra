@@ -1,4 +1,4 @@
-package br.com.ignisinventum.infra.patters.structure.composite.interfaces;
+package br.com.ignisinventum.infra.patters.structural.composite.interfaces;
 
 /**
  * The Interface Component.

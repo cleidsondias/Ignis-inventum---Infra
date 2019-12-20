@@ -1,10 +1,10 @@
-package br.com.ignisinventum.infra.patters.structure.composite;
+package br.com.ignisinventum.infra.patters.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.ignisinventum.infra.patters.structure.composite.interfaces.Component;
-import br.com.ignisinventum.infra.patters.structure.composite.interfaces.Composite;
+import br.com.ignisinventum.infra.patters.structural.composite.interfaces.Component;
+import br.com.ignisinventum.infra.patters.structural.composite.interfaces.Composite;
 
 /**
  * The Class HeritageComposite.

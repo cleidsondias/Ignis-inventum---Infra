@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="br.com.ignisinventum.infra.patters.structure.composite.interfaces.Component" 
+  <interface id="1" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.interfaces.Component" 
     project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structure/composite/interfaces/Component.java" 
+    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/interfaces/Component.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="545" y="66"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -12,9 +12,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="2" language="java" name="br.com.ignisinventum.infra.patters.structure.composite.interfaces.Composite" 
+  <interface id="2" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.interfaces.Composite" 
     project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structure/composite/interfaces/Composite.java" 
+    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/interfaces/Composite.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="185" y="79"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -23,9 +23,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="3" language="java" name="br.com.ignisinventum.infra.patters.structure.composite.PersonComposite" 
+  <class id="3" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.PersonComposite" 
     project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structure/composite/PersonComposite.java" 
+    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/PersonComposite.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="563" y="323"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -34,9 +34,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="br.com.ignisinventum.infra.patters.structure.composite.ModelContext" 
+  <class id="4" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.ModelContext" 
     project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structure/composite/ModelContext.java" 
+    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/ModelContext.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="163" y="324"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

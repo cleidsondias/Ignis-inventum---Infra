@@ -1,4 +1,4 @@
-package br.com.ignisinventum.infra.patters.structure.composite;
+package br.com.ignisinventum.infra.patters.structural.composite;
 
 public class ModelContext {
 	

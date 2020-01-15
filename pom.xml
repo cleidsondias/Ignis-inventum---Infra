@@ -3,14 +3,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.ignisinventum</groupId>
-	<artifactId>br.com.ignisinventum.infra</artifactId>
+	<artifactId>br.com.ignisinventum.patterns</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Ignis inventum - Infra</name>
-	<description>This project is for using in another project of ignis inventum or not :P</description>
+	<name>Ignis inventum - Patterns</name>
+	<description>
+		This project has 2 objectives, the first is to create a set of interfaces that can be used in 
+		the implementation of technology projects based on the JAVA language and using as a structure the Project Pattern (GoF), 
+		the second objective is an example of how it can implement the design patterns in our projects.
+	</description>
 
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
-
 </project>

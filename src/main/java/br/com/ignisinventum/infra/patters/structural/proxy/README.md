@@ -9,3 +9,5 @@ We only want such objects to be initialized on demand, and once they are, we'd w
 
 
 ![Singleton Pattern](./Proxy%20Pattern.png?raw=true)
+
+[Back](/)

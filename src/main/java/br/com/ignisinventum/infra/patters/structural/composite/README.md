@@ -7,3 +7,5 @@ Describes a group of objects that are treated the same way as a single instance 
 
 
 ![Singleton Pattern](./Composite%20Pattern.png?raw=true)
+
+[Back](/)

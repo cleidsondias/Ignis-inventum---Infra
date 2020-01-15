@@ -7,3 +7,5 @@ Abstract Factory method pattern is a way to create a object of a group families 
 
 
 ![Singleton Pattern](./Abstract%20Factory%20Pattern.png?raw=true)
+
+[Back](/)

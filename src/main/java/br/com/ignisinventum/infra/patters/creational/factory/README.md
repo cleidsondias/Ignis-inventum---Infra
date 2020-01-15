@@ -7,3 +7,5 @@ Factory method pattern if for using in the problem of creating objects without h
 
 
 ![Singleton Pattern](./Factory%20Pattern.png?raw=true)
+
+[Back](/)

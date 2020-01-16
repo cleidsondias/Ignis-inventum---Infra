@@ -3,6 +3,6 @@ package br.com.ignisinventum.infra.patters.creational.factory.interfaces;
 /**
  * The Interface ProductEnums.
  */
-public interface ProductEnums {
+public interface ProductEnum {
 
 }

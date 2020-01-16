@@ -5,7 +5,7 @@ import br.com.ignisinventum.infra.patters.creational.abstractfactory.interfaces.
 /**
  * The Enum Factorys.
  */
-public enum Factorys implements FactoryEnums {
+public enum FactorysEnum implements FactoryEnums {
 
 	/** The car. */
 	car,

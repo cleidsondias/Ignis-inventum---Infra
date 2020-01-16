@@ -1,11 +1,13 @@
-package br.com.ignisinventum.infra.patters.behavioral.command;
+package br.com.ignisinventum.infra.patters.behavioral.command.enums;
 
+import br.com.ignisinventum.infra.patters.behavioral.command.ReceiverA;
+import br.com.ignisinventum.infra.patters.behavioral.command.ReceiverB;
 import br.com.ignisinventum.infra.patters.behavioral.command.interfaces.CommandEnum;
 
 /**
  * The Enum CommandModelA.
  */
-public enum CommandEnumModel implements CommandEnum {
+public enum CommandModelEnum implements CommandEnum {
 
 	/** The Receiver model A. */
 	ReceiverA {

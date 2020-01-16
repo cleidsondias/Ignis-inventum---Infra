@@ -5,36 +5,35 @@ import br.com.ignisinventum.infra.patters.behavioral.command.interfaces.CommandE
 /**
  * The Enum CommandModelA.
  */
-public enum CommandEnumModelA implements CommandEnum {
+public enum CommandEnumModel implements CommandEnum {
 
 	/** The Receiver model A. */
-	ReceiverModelA {
+	ReceiverA {
 
 		/**
 		 * Execute.
 		 */
 		@Override
 		public void action() {
-			receiverModelA.action();
+			receiverA.action();
 		}
 	},
 
 	/** The Receiver model B. */
-	ReceiverModelB {
+	ReceiverB {
 
 		/**
 		 * Execute.
 		 */
 		@Override
 		public void action() {
-			receiverModelB.action();
+			receiverB.action();
 		}
 	};
-
+	
 	/** The receiver model A. */
-	ReceiverModelA receiverModelA = new ReceiverModelA();
+	ReceiverA receiverA = new ReceiverA();
 
 	/** The receiver model B. */
-	ReceiverModelB receiverModelB = new ReceiverModelB();
-
+	ReceiverB receiverB = new ReceiverB();
 }

@@ -1,11 +1,11 @@
 package br.com.ignisinventum.infra.patters.creational.abstractfactory.car.model.enums;
 
-import br.com.ignisinventum.infra.patters.creational.factory.interfaces.ProductEnums;
+import br.com.ignisinventum.infra.patters.creational.factory.interfaces.ProductEnum;
 
 /**
  * The Enum CarModels.
  */
-public enum CarModels implements ProductEnums {
+public enum CarModelsEnum implements ProductEnum {
 
 	/** The model car A. */
 	model_car_A,

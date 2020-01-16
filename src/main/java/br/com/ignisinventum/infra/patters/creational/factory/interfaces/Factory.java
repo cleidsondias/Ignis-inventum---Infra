@@ -5,7 +5,7 @@ package br.com.ignisinventum.infra.patters.creational.factory.interfaces;
  *
  * @param <T> the generic type
  */
-public interface Factory<T extends ProductEnums> {
+public interface Factory<T extends ProductEnum> {
 
 	/**
 	 * Gets the product.

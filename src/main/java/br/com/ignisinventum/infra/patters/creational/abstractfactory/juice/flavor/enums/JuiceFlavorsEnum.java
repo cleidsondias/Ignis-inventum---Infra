@@ -1,11 +1,11 @@
 package br.com.ignisinventum.infra.patters.creational.abstractfactory.juice.flavor.enums;
 
-import br.com.ignisinventum.infra.patters.creational.factory.interfaces.ProductEnums;
+import br.com.ignisinventum.infra.patters.creational.factory.interfaces.ProductEnum;
 
 /**
  * The Enum JuiceFlavors.
  */
-public enum JuiceFlavors implements ProductEnums {
+public enum JuiceFlavorsEnum implements ProductEnum {
 
 	/** The juice flavor orange. */
 	juice_flavor_orange,

@@ -45,18 +45,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <enumeration id="5" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.CommandEnumModel" 
-    project="br.com.ignisinventum.patterns" 
-    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/behavioral/command/CommandEnumModel.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="148" y="369"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </enumeration>  
-  <class id="6" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.ReceiverA" 
+  <class id="5" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.ReceiverA" 
     project="br.com.ignisinventum.patterns" 
     file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/behavioral/command/ReceiverA.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -67,18 +56,18 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.ReceiverB" 
+  <class id="6" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.ReceiverB" 
     project="br.com.ignisinventum.patterns" 
     file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/behavioral/command/ReceiverB.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="465" y="369"/>    
+    <position height="-1" width="-1" x="482" y="369"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="8" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.interfaces.Receiver" 
+  <interface id="7" language="java" name="br.com.ignisinventum.infra.patters.behavioral.command.interfaces.Receiver" 
     project="br.com.ignisinventum.patterns" 
     file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/behavioral/command/interfaces/Receiver.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -89,52 +78,68 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <realization id="9">    
-    <end type="SOURCE" refId="5"/>    
+  <enumeration id="8" language="java" 
+    name="br.com.ignisinventum.infra.patters.behavioral.command.enums.CommandModelEnum" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/behavioral/command/enums/CommandModelEnum.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="148" y="395"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <association id="9">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="10" name="commandModel">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="3"/>  
   </realization>  
-  <association id="10">    
+  <association id="14">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="11" name="commandEnumModel"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
+      <attribute id="15" name="commandEnumModel"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="17">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="18">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="19" name="receiverA"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="13">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="8"/>  
-  </realization>  
-  <realization id="14">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <association id="15">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="16" name="receiverB"/>      
-      <multiplicity id="17" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="19" name="receiverA"/>      
-      <multiplicity id="20" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <realization id="21">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="8"/>  
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
   </realization>  
   <association id="22">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="23" name="commandModel"/>      
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="23" name="receiverB"/>      
       <multiplicity id="24" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

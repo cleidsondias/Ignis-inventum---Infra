@@ -7,4 +7,4 @@ A proxy is a wrapper or agent object that is being called by the client to acces
 
 We only want such objects to be initialized on demand, and once they are, we'd want to reuse them for all calls:
 
-![Singleton Pattern](./Proxy%20Pattern.png?raw=true)
+![Singleton Pattern](./Proxy.jpg?raw=true)

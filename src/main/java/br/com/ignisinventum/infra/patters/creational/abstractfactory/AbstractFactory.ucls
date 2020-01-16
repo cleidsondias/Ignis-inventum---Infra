@@ -24,18 +24,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="3" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.FactoryCreator" 
-    project="br.com.ignisinventum.patterns" 
-    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/FactoryCreator.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="157" y="214"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="4" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Factory" 
+  <interface id="3" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Factory" 
     project="br.com.ignisinventum.patterns" 
     file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Factory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -46,7 +35,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="5" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.car.CarFactory" 
+  <class id="4" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.car.CarFactory" 
     project="br.com.ignisinventum.patterns" 
     file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/car/CarFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -57,7 +46,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.juice.JuiceFactory" 
+  <class id="5" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.juice.JuiceFactory" 
     project="br.com.ignisinventum.patterns" 
     file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/juice/JuiceFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
@@ -68,47 +57,45 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="7">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
+  <class id="6" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.FactoryCreator" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/FactoryCreator.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="165" y="216"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="8" name="factorys"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
   </realization>  
-  <association id="8">    
-    <bendpoint x="374" y="163"/>    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="9" name="juice">        
-        <position height="18" width="30" x="363" y="214"/>      
-      </attribute>      
-      <multiplicity id="10" minimum="0" maximum="1">        
-        <position height="16" width="23" x="423" y="178"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="11">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="12" name="cars">        
-        <position height="18" width="30" x="392" y="172"/>      
-      </attribute>      
-      <multiplicity id="13" minimum="0" maximum="1">        
-        <position height="16" width="23" x="401" y="216"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="14">    
+  <realization id="11">    
     <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
-  </realization>  
-  <realization id="15">    
-    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
-  <association id="16">    
+  <realization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="13">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="17" name="factoryCreator"/>      
-      <multiplicity id="18" minimum="0" maximum="1"/>    
+      <attribute id="14" name="factoryCreator">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="15" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

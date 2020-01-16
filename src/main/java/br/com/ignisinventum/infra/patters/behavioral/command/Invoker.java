@@ -8,14 +8,14 @@ import br.com.ignisinventum.infra.patters.behavioral.command.interfaces.Command;
 public class Invoker {
 
 	/** The command model A. */
-	Command<CommandEnumModelA> commandModelA = new CommandModelA();
+	Command<CommandEnumModel> commandModel = new CommandModel();
 
 	/**
 	 * Command invoker.
 	 */
 	public void commandInvoker() {
 
-		commandModelA.execute(CommandEnumModelA.ReceiverModelA);
+		commandModel.execute(CommandEnumModel.ReceiverA);
 	}
 
 	/**

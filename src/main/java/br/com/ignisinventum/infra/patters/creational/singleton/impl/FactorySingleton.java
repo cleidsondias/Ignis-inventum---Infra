@@ -23,8 +23,8 @@ public final class FactorySingleton {
 	/**
 	 * Gets the single instance of ConcreteSingleton.
 	 *
-	 * @param clz the clz
-	 * @return
+	 * @param <O> the generic type
+	 * @param singleton the singleton
 	 * @return single instance of ConcreteSingleton
 	 */
 	public static <O extends Singleton<?>> Object getInstance(Class<?> singleton) {

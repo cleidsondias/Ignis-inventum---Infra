@@ -6,10 +6,10 @@ import br.com.ignisinventum.infra.patters.behavioral.command.interfaces.Command;
  * The Class CommandModelA.
  */
 @SuppressWarnings("static-access")
-public class CommandModelA implements Command<CommandEnumModelA> {
+public class CommandModel implements Command<CommandEnumModel> {
 
 	/** The command enum model A. */
-	CommandEnumModelA commandEnumModelA;
+	CommandEnumModel commandEnumModel;
 
 	/**
 	 * Execute.
@@ -17,8 +17,8 @@ public class CommandModelA implements Command<CommandEnumModelA> {
 	 * @param commandEnum the command enum
 	 */
 	@Override
-	public void execute(CommandEnumModelA commandEnum) {
-		commandEnumModelA.valueOf(commandEnum.toString()).action();
+	public void execute(CommandEnumModel commandEnum) {
+		commandEnumModel.valueOf(commandEnum.toString()).action();
 	}
 
 }

@@ -2,10 +2,10 @@
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <interface id="1" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.interfaces.Component" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/interfaces/Component.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/interfaces/Component.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="545" y="66"/>    
+    <position height="-1" width="-1" x="636" y="65"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -13,10 +13,10 @@
     </display>  
   </interface>  
   <interface id="2" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.interfaces.Composite" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/interfaces/Composite.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/interfaces/Composite.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="185" y="79"/>    
+    <position height="-1" width="-1" x="175" y="98"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,10 +24,10 @@
     </display>  
   </interface>  
   <class id="3" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.PersonComposite" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/PersonComposite.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/PersonComposite.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="563" y="323"/>    
+    <position height="-1" width="-1" x="638" y="300"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -35,10 +35,10 @@
     </display>  
   </class>  
   <class id="4" language="java" name="br.com.ignisinventum.infra.patters.structural.composite.ModelContext" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/ModelContext.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/structural/composite/ModelContext.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="163" y="324"/>    
+    <position height="-1" width="-1" x="167" y="300"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -50,25 +50,25 @@
     <end type="TARGET" refId="1"/>  
   </realization>  
   <association id="6">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="7" name="granfather"/>      
-      <multiplicity id="8" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="9">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="10" name="personas"/>      
-      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+      <attribute id="7" name="personas"/>      
+      <multiplicity id="8" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="12">    
+  <realization id="9">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
+  <association id="10">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="granfather"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

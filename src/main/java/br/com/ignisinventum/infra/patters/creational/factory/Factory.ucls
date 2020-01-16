@@ -1,118 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectFactory" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectFactory.java" 
+  <class id="1" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ModelContext" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ModelContext.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="205" y="225"/>    
+    <position height="-1" width="-1" x="140" y="83"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectProductA" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectProductA.java" 
+  <interface id="2" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Factory" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Factory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="850" y="223"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectProductB" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectProductB.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="774" y="364"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectProductC" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectProductC.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="463" y="400"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="5" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Product" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Product.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="528" y="222"/>    
+    <position height="-1" width="-1" x="518" y="82"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="6" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Factory" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Factory.java" 
+  <class id="3" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectFactory" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="490" y="69"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="7" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ModelContext" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ModelContext.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="127" y="68"/>    
+    <position height="-1" width="-1" x="199" y="216"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="8">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
-  <realization id="9">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <association id="10">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="11" name="objectFactory"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
+  <interface id="4" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Product" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Product.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="537" y="213"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectProductA" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectProductA.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="316" y="339"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectProductB" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectProductB.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="586" y="339"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.ObjectProductC" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/ObjectProductC.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="818" y="212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="product"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <realization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
   <realization id="13">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
   </realization>  
   <association id="14">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="15" name="product">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="16" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+      <attribute id="15" name="objectFactory"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <realization id="17">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

@@ -2,10 +2,10 @@
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.ModelContext" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/ModelContext.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/ModelContext.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="160" y="83"/>    
+    <position height="-1" width="-1" x="153" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,43 +14,43 @@
   </class>  
   <interface id="2" language="java" 
     name="br.com.ignisinventum.infra.patters.creational.abstractfactory.interfaces.AbstractFactory" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/interfaces/AbstractFactory.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/interfaces/AbstractFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="570" y="83"/>    
+    <position height="-1" width="-1" x="547" y="83"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="3" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Factory" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Factory.java" 
+  <class id="3" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.FactoryCreator" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/FactoryCreator.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="598" y="217"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="4" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.car.CarFactory" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/car/CarFactory.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="393" y="380"/>    
+    <position height="-1" width="-1" x="157" y="214"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.FactoryCreator" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/FactoryCreator.java" 
+  <interface id="4" language="java" name="br.com.ignisinventum.infra.patters.creational.factory.interfaces.Factory" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/factory/interfaces/Factory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="163" y="238"/>    
+    <position height="-1" width="-1" x="634" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.car.CarFactory" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/car/CarFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="341" y="343"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -58,10 +58,10 @@
     </display>  
   </class>  
   <class id="6" language="java" name="br.com.ignisinventum.infra.patters.creational.abstractfactory.juice.JuiceFactory" 
-    project="br.com.ignisinventum.infra" 
-    file="/br.com.ignisinventum.infra/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/juice/JuiceFactory.java" 
+    project="br.com.ignisinventum.patterns" 
+    file="/br.com.ignisinventum.patterns/src/main/java/br/com/ignisinventum/infra/patters/creational/abstractfactory/juice/JuiceFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="760" y="387"/>    
+    <position height="-1" width="-1" x="684" y="347"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -69,40 +69,48 @@
     </display>  
   </class>  
   <realization id="7">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
-  </realization>  
-  <realization id="8">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </realization>  
-  <realization id="9">    
     <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="8">    
+    <bendpoint x="374" y="163"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="juice">        
+        <position height="18" width="30" x="363" y="214"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="16" width="23" x="423" y="178"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="cars">        
+        <position height="18" width="30" x="392" y="172"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="16" width="23" x="401" y="216"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </realization>  
-  <association id="10">    
-    <bendpoint x="375" y="303"/>    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="11" name="juice"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="13">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="14" name="factoryCreator"/>      
-      <multiplicity id="15" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <association id="16">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="17" name="cars"/>      
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="17" name="factoryCreator"/>      
       <multiplicity id="18" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

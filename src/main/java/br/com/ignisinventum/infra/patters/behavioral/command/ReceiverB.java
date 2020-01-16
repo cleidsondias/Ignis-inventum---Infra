@@ -5,7 +5,7 @@ import br.com.ignisinventum.infra.patters.behavioral.command.interfaces.Receiver
 /**
  * The Class ReceiverModelB.
  */
-public class ReceiverModelB implements Receiver {
+public class ReceiverB implements Receiver {
 
 	/**
 	 * Action.

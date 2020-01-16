@@ -2,8 +2,6 @@ package br.com.ignisinventum.infra.patters.creational.factory.interfaces;
 
 /**
  * The Interface Product.
- *
- * @param <T> the generic type
  */
 public interface Product {
 

@@ -25,6 +25,6 @@ To use the interfaces of this project, put in dependency section in you prject:
 <dependency>
 	<groupId>br.com.ignisinventum</groupId>
 	<artifactId>patterns</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 </dependency>
 ```

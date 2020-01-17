@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.ignisinventum</groupId>
-	<artifactId>br.com.ignisinventum.patterns</artifactId>
-	<version>1.0.1</version>
+	<artifactId>patterns</artifactId>
+	<version>1.0.2</version>
 	<name>Ignis inventum - Patterns</name>
 	<description>
 		This project has 2 objectives, the first is to create a set of interfaces that can be used in 

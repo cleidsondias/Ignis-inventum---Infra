@@ -18,3 +18,13 @@ Below is a list of implemented design patterns :
 **Type:** Structural
 * [Composite](src/main/java/br/com/ignisinventum/infra/patters/structural/composite/README.md)
 * [Proxy](src/main/java/br/com/ignisinventum/infra/patters/structural/proxy/README.md)
+
+To use the interfaces of this project, put in dependency section in you prject:
+
+```xml
+<dependency>
+	<groupId>br.com.ignisinventum</groupId>
+	<artifactId>patterns</artifactId>
+	<version>1.0.1</version>
+</dependency>
+```

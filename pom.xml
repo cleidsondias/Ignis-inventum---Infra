@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.ignisinventum</groupId>
 	<artifactId>br.com.ignisinventum.patterns</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>Ignis inventum - Patterns</name>
 	<description>
 		This project has 2 objectives, the first is to create a set of interfaces that can be used in 
@@ -19,14 +19,14 @@
 		<name>Ignis Inventum</name>
 		<url>http://www.ignisinventum.com.br/</url>
 	</organization>
-	
+
 	<licenses>
 		<license>
 			<name>The BSD 2-Clause License</name>
 			<url>http://opensource.org/licenses/BSD-2-Clause</url>
 		</license>
 	</licenses>
-	
+
 	<developers>
 		<developer>
 			<name>Cleidson Dias do Nascimento, MSc</name>
@@ -157,7 +157,7 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
-	
+
 	<scm>
 		<connection>scm:git:git@github.com:cleidsondias/ignis-inventum-patterns.git</connection>
 		<developerConnection>scm:git:git@github.com:cleidsondias/ignis-inventum-patterns.git</developerConnection>

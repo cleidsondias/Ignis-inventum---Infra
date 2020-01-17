@@ -24,7 +24,7 @@ To use the interfaces of this project, put in dependency section in you prject:
 ```xml
 <dependency>
 	<groupId>br.com.ignisinventum</groupId>
-	<artifactId>br.com.ignisinventum.patterns</artifactId>
-	<version>1.0.0</version>
+	<artifactId>patterns</artifactId>
+	<version>1.0.1</version>
 </dependency>
 ```

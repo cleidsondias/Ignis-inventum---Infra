@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.ignisinventum</groupId>
 	<artifactId>br.com.ignisinventum.patterns</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>Ignis inventum - Patterns</name>
 	<description>
 		This project has 2 objectives, the first is to create a set of interfaces that can be used in 

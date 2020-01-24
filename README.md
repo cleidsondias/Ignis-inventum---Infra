@@ -1,5 +1,7 @@
 # ignis-inventum-patterns
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
 This project has 2 objectives, the first is to create a set of interfaces that can be used in the implementation of technology projects based on the JAVA language and using as a structure the Project Pattern (GoF), the second objective is an example of how it can implement the design patterns in our projects.
 
 Below is a list of implemented design patterns :
@@ -28,3 +30,5 @@ To use the interfaces of this project, put in dependency section in you prject:
 	<version>1.0.2</version>
 </dependency>
 ```
+
+if you want contribute for us, read the [CONTRIBUTING.md](/CONTRIBUTING.md)

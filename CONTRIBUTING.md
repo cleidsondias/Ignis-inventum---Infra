@@ -10,16 +10,25 @@ another project. So, depending on where you see your contribution fit, please fo
 
 ## Contribution process
 
-Please read about the Contribution Process [here](https://github.com/getgauge/gauge/blob/master/CONTRIBUTING.md), 
-if you are happy please sign the [Contributor's License Agreement](https://gauge-bot.herokuapp.com/cla/). 
+## Different ways to contribute
 
-## How can I contribute
+* You can [report an issue](https://github.com/cleidsondias/ignis-inventum-patterns/issues) you found
+* Contribute [to our wiki](https://github.com/cleidsondias/ignis-inventum-patterns/wiki) 
+* Create a another dessing patterns 
+* Contribute code to Gauge! 
 
-Contributions can be of many forms:
+All repositories are hosted on GitHub. Pick up any pending feature or bug, big or small, then send us a pull request. Even fixing broken links is a big, big help!
 
-- Open an issue, or participate in an existing one. 
-- Write some code, and send us a pull request.
-- Enhance the documentation
-- Participate in design discussions on Google Groups
+## How do I start contributing
 
-If you need help in getting started with contribution, feel free to reach out on the [Google Groups](https://groups.google.com/forum/#!forum/getgauge) or [Gitter](https://gitter.im/getgauge/chat).
+### Do you like to code?
+
+- Fork & clone 
+- git checkout -b my-new-feature
+- create or fix
+- Submit a pull request
+
+### Do you like organizing?
+- Link to duplicate issues, and suggest new issue labels, to keep things organized
+- Go through open issues and suggest closing old ones.
+- Ask clarifying questions on recently opened issues to move the discussion forward

@@ -15,7 +15,7 @@ another project. So, depending on where you see your contribution fit, please fo
 * You can [report an issue](https://github.com/cleidsondias/ignis-inventum-patterns/issues) you found
 * Contribute [to our wiki](https://github.com/cleidsondias/ignis-inventum-patterns/wiki) 
 * Create a another dessing patterns 
-* Contribute code to Gauge! 
+* Contribute code to Ignis Inventum Patterns! 
 
 All repositories are hosted on GitHub. Pick up any pending feature or bug, big or small, then send us a pull request. Even fixing broken links is a big, big help!
 
@@ -23,9 +23,9 @@ All repositories are hosted on GitHub. Pick up any pending feature or bug, big o
 
 ### Do you like to code?
 
-- Fork & clone 
+- clone the branch develop 
 - git checkout -b my-new-feature
-- create or fix
+- create a new patterns or fix
 - Submit a pull request
 
 ### Do you like organizing?

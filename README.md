@@ -32,3 +32,10 @@ To use the interfaces of this project, put in dependency section in you prject:
 ```
 
 if you want contribute for us, read the [CONTRIBUTING.md](/CONTRIBUTING.md)
+
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/ahaavila/instagram-fullStack/blob/master/LICENSE) for more information.
+
+---
+
+Made with ♥ by Cleidson Dias do Nascimento, MSc :wave: [Get in touch!](https://github.com/cleidsondias/)

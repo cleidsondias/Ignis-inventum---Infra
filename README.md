@@ -36,6 +36,7 @@ if you want contribute for us, read the [CONTRIBUTING.md](/CONTRIBUTING.md)
 ## :memo: License
 This project is under the BSD-2-Clause license. See the [LICENSE](https://github.com/cleidsondias/ignis-inventum-patterns/blob/developer/LICENSE) for more information.
 
+
 ---
 
 Made with ♥ by Cleidson Dias do Nascimento, MSc :wave: [Get in touch!](https://github.com/cleidsondias/)

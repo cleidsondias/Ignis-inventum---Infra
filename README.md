@@ -23,6 +23,14 @@ Below is a list of implemented design patterns :
 
 To use the interfaces of this project, put in dependency section in you prject:
 
+## :rocket: Technologies
+This project was developed with the following technologies:
+-  [JAVA](https://www.java.com/)
+
+## :warning: Prerequisites
+-  [Maven](https://maven.apache.org/)
+
+## :information_source: How To Use
 ```xml
 <dependency>
 	<groupId>br.com.ignisinventum</groupId>
